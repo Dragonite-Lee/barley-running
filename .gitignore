@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.expo-home/
+.env
+.env.*
+!.env.example
+*.log
+playwright-report/
+test-results/
+.DS_Store
+android/
+ios/

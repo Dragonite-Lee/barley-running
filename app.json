@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "보리런 · Barley Run",
+    "slug": "barley-running",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "barleyrun",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.barleyrun.app" },
+    "android": { "package": "com.barleyrun.app" },
+    "web": { "bundler": "metro", "name": "보리런 · 우리 동네의 한 걸음" },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "달리는 동안 거리와 페이스를 측정하기 위해 위치를 사용합니다. 위치는 이 기기에만 저장됩니다."
+        }
+      ]
+    ]
+  }
+}
